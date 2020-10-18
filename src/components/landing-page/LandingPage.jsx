@@ -30,7 +30,7 @@ const LandingPage = () => {
             <span></span>
             <span></span>
             <span></span>
-              Wchodzę
+              Wejście
           </div>
         </Fade>
         <div className='logos-wrapper'>

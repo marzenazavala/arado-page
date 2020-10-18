@@ -4,7 +4,7 @@ import './partners.scss';
 const Partners = () => {
     return (
         <div className='main-wrapper' id='partnerzy'>
-            Partnerzy
+            <h1>Partnerzy</h1>
         </div>
     );
 };

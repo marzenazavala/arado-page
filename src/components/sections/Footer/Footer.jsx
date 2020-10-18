@@ -6,13 +6,12 @@ const Footer = () => {
     return (
         <footer className="bck-gray">
         <Fade delay={500}>
-        <div className="font_righteous footer_logo_venue">
+        <div>
             Arado
         </div>
         <div className="footer_copyright">
             Arado. All rights reserved.
         </div>
-
         </Fade>
             
         </footer>

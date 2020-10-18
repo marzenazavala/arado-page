@@ -1,10 +1,20 @@
 .main-box {
-    height: 700px;
-    color: #fff;
-    font-size: 34px;
+    height: 800px;
     text-align: center;
-    background-image: url('../../../assets/img/wall-background.png');
+    // background-image: url('../../../assets/img/wall-background.png');
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/25/13/12/old-739112_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.6;
+    background-attachment: fixed;
+    filter: sepia(50%)
 }
+
+
+.g-wrapper {
+    margin: auto;
+    padding: 10px 40px;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 34px;
+}
+
+
