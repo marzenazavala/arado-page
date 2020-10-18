@@ -16,9 +16,9 @@ class App extends Component {
         <Menu />
         <LandingPage />
         <MainContainer/>
+        <Partners />
         <Gallery />
         <Contact />
-        <Partners />
         <Footer />
       </BrowserRouter>
     );

@@ -6,7 +6,7 @@ import './mainContainer.scss';
 
 const MainContainer = () => {
   return (
-    <div className='parallax'>
+    <div className='parallax' id='aktualnosci'>
         <div className='main-container'>
           <Header />
           <Home />

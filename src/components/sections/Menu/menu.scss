@@ -1,0 +1,14 @@
+.logo-small {
+    width: 70px;
+    height: 60px;
+    background-image: url('../../../assets/img/logo_arado.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.menu-items {
+    display: flex;
+    cursor: url('../../../assets/icons/aim.png'), auto;
+}
+

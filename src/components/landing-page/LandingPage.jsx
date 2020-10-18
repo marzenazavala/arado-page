@@ -1,18 +1,31 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
+import { scroller } from 'react-scroll';
 import './landingPage.scss';
 
 
+
 const LandingPage = () => {
+
+  const scrollToElement = (element) => {
+    scroller.scrollTo(element,{
+        duration:1000,
+        delay: 100,
+        smooth: true,
+        offset:-80
+    });
+}
+
     return (
       <div className='landing-page'>
        
-        <Fade top>
+        <Fade delay={500}>
           <div className='logo'/>
         </Fade>
-        <Fade bottom>
-          <div className='btn from-center button'>
+
+        <Fade bottom delay={2000}>
+          <div className='btn from-center button' onClick={() => scrollToElement('aktualnosci')}>
             <span></span>
             <span></span>
             <span></span>

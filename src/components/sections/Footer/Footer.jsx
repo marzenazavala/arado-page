@@ -1,11 +1,22 @@
-import React from  'react';
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+import './footer.scss';
 
 const Footer = () => {
     return (
-        <div>
-            Footer
+        <footer className="bck-gray">
+        <Fade delay={500}>
+        <div className="font_righteous footer_logo_venue">
+            Arado
         </div>
+        <div className="footer_copyright">
+            Arado. All rights reserved.
+        </div>
+
+        </Fade>
+            
+        </footer>
     );
 };
 
-export default Footer
+export default Footer;
