@@ -1,0 +1,40 @@
+
+.newspaper {
+    text-align: justify;
+    padding: 10px;
+
+    &.row-3 {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+}
+
+.row-item {
+    width: 30vw;
+    padding: 10px 20px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 7px;
+}
+
+.more {
+    text-align: right;
+    padding-top: 20px;
+
+    &:hover {
+        font-weight: 700;
+        cursor: url('../../assets/icons/tank.png'), auto;
+    }
+}
+
+
+
+
+
+
+
+

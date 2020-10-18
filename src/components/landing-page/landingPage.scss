@@ -1,0 +1,207 @@
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/img/arado_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    width: 400px;
+    height: 330px;
+    background-image: url('../../assets/img/logo_arado.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+// .btn {		
+// 	position: relative;	
+// 	padding: 25px 35px;
+// 	margin: 40px 0;
+// 	font-size: 1.4rem;
+// 	color: #fff;
+// 	letter-spacing: 1rem;
+// 	text-transform: uppercase;
+// 	transition: 0.5s;
+// 	user-select: none;
+// }
+
+// .btn:before, .btn:after {
+// 	content: '';
+// 	position: absolute;	
+// 	transition: inherit;
+// 	z-index: -1;
+// }
+
+// .btn:hover {
+// 	background-color: #fff;
+// 	color: #000;
+// 	box-shadow: 0 0 5px #fff,
+// 				0 0 25px #fff,
+// 				0 0 50px #fff,
+// 				0 0 200px #fff;
+	
+// }
+
+// .btn:hover:before {
+// 	transition-delay: 0s;
+// }
+
+// .btn:hover:after {
+// 	background-color: #fff;
+// 	transition-delay: .35s;
+// }
+
+// .from-center:before {
+// 	top: 0;
+// 	left: 50%;
+// 	height: 100%;
+// 	width: 0;
+// 	border: 1px solid #fff;
+// 	border-left: 0;
+// 	border-right: 0;
+// }
+
+// .from-center:after {
+// 	bottom: 0;
+// 	left: 0;
+// 	height: 0;
+// 	width: 100%;
+// 	background-color: #fff;
+// }
+
+// .from-center:hover:before {
+// 	left: 0;
+// 	width: 100%;
+// }
+
+// .from-center:hover:after {
+// 	top: 0;
+// 	height: 100%;
+// }
+
+// *, *:before, *:after {
+// 	box-sizing: border-box;
+// }
+
+.button {
+	position: absolute;
+	top: 83%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	padding: 25px 35px;
+	margin: 40px 0;
+	font-size: 1.2rem;
+	color: #fff;
+	letter-spacing: 1rem;
+	text-transform: uppercase;
+	transition: 0.5s;
+	user-select: none;
+	overflow: hidden;
+}
+
+.button:hover {
+	background-color: rgb(255, 255, 255);
+	letter-spacing: 1.3rem;
+	color: #000;
+	transition: 0.8s
+}
+
+.button:before {
+	content:'';
+	position: absolute
+}
+
+.button span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, rgba(255, 254, 254, 0), white );
+	animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+	0% {
+		transform: translateX(-100%);
+
+	}
+	100% {
+		transform: translateX(100%);
+
+	}
+}
+
+.button span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(255, 254, 254, 0), white );
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate2 {
+	0% {
+		transform: translateY(-100%);
+
+	}
+	100% {
+		transform: translateY(100%);
+
+	}
+}
+
+.button span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, rgba(255, 254, 254, 0), white );
+	animation: animate3 2s linear infinite;
+	animation-delay: 2s;
+}
+
+@keyframes animate3 {
+	0% {
+		transform: translateX(100%);
+
+	}
+	100% {
+		transform: translateX(-100%);
+
+	}
+}
+
+.button span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to top, rgba(255, 254, 254, 0), white );
+	animation: animate4 2s linear infinite;
+	animation-delay: 3s;
+}
+
+@keyframes animate4 {
+	0% {
+		transform: translateY(100%);
+
+	}
+	100% {
+		transform: translateY(-100%);
+
+	}
+}
+

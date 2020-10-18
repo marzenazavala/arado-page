@@ -1,0 +1,58 @@
+
+.newspaper {
+    text-align: justify;
+    padding: 10px;
+
+    &.row-3 {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+}
+
+.row-item {
+    width: 33vw;
+    padding: 0 20px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 7px;
+    text-align: left;
+}
+
+.more {
+    text-align: right;
+    padding-top: 20px;
+
+    &:hover {
+        font-weight: 700;
+        cursor: url('../../../assets/icons/tank.png'), auto;
+    }
+}
+
+.photo {
+    width: 25rem;
+    height: 16rem;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-image: url('../../../assets/img/arado3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(100%);
+    opacity: 0.6;
+    border: 5px double #2c2b2b;
+    padding: 1rem;
+    &:hover {
+        filter: unset;
+        opacity: unset
+    }
+}
+
+
+
+
+
+
+

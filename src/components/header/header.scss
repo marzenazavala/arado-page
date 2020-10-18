@@ -1,0 +1,33 @@
+.title {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 110px;
+    padding-top: 50px;
+    opacity: 0.8
+}
+
+.date {
+    text-align: right;
+    margin-right: 50px
+}
+
+.subtitle {
+    padding-bottom: 20px;
+    font-size: 20px
+}
+
+.menu {
+    height: 40px;
+    width: 65vw;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: url('../../assets/icons/aim.png'), auto;
+    :hover {
+        font-weight: 700;
+        font-size: 20px;
+    }
+}

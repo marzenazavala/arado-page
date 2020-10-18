@@ -1,0 +1,28 @@
+.main-container {
+    width: 80vw;
+    height: 1500px;
+    // background-color: rgb(180, 163, 143);
+    background-image: url('../../assets/img/old_paper.png');
+    // box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Courier Prime', monospace;
+    // position: relative;
+    // top: 0px;
+    FILTER: grayscale(30%)
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../../assets/img/war.jpg');
+    /* Set a specific height */
+    min-height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
