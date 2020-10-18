@@ -18,11 +18,8 @@ const Header = () => {
                     <div>OFERTA</div>
                     <div>HISTORIA</div>
                     <div>RAJD</div>
-                    <div>GALERIA</div>
                     <div>CENNIK</div>
-                    <div>PARTNERZY</div>
                     <div>WYCIECZKI ŁĄCZONE</div>
-                    <div>KONTAKT</div>
                 </div>
             </div>
         </div>
