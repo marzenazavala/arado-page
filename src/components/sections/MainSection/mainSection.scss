@@ -46,7 +46,8 @@
     padding: 1rem;
     &:hover {
         filter: unset;
-        opacity: unset
+        opacity: unset;
+        transition: 2s
     }
 }
 

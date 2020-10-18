@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import LandingPage from './components/landing-page/LandingPage';
 import MainContainer from './components/main-container/MainContainer';
@@ -11,15 +12,15 @@ import Partners from './components/sections/Partners/Partners';
 class App extends Component {
   render () {
     return (
-      <div className="App">
+      <BrowserRouter className="App">
         <Menu />
         <LandingPage />
-        <Partners />
         <MainContainer/>
         <Gallery />
         <Contact />
+        <Partners />
         <Footer />
-      </div>
+      </BrowserRouter>
     );
   }
  
