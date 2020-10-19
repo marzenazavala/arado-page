@@ -33,6 +33,14 @@ const SideDrawer = (props) => {
             Partnerzy
           </ListItem>
 
+          <ListItem button onClick={() => scrollToElement("godziny")}>
+            Godziny otwarcia
+          </ListItem>
+
+          <ListItem button onClick={() => scrollToElement("cennik")}>
+            Cennik
+          </ListItem>
+
           <ListItem button onClick={() => scrollToElement("galeria")}>
             Galeria
           </ListItem>
