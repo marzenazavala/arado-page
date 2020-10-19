@@ -1,6 +1,6 @@
 import React from  'react';
 import ResponsiveGallery from 'react-responsive-gallery';
-import image from '../../../assets/img/RR27364.png';
+import Fade from 'react-reveal';
 import './gallery.scss';
 
 const images=[
@@ -42,8 +42,10 @@ const Gallery = () => {
     return (
         <div className='main-box' id='galeria'>
             <div className='g-wrapper'>
-                <h1>Galeria</h1>
-                <ResponsiveGallery images={images}/>
+                <Fade delay={2000}>
+                    <h1>Galeria</h1>
+                    <ResponsiveGallery images={images}/>
+                </Fade>
             </div>
             
         </div>
