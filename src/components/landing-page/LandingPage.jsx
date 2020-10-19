@@ -20,7 +20,7 @@ const LandingPage = () => {
     return (
       <div className='landing-page'>
        
-        <Fade delay={500}>
+        <Fade delay={1000}>
           <div className='logo'/>
         </Fade>
 

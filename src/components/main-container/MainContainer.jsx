@@ -8,8 +8,11 @@ const MainContainer = () => {
   return (
     <div className='parallax' id='aktualnosci'>
         <div className='main-container'>
+          <div className='paper'>
           <Header />
           <Home />
+          </div>
+          
         </div>
     </div>
   );

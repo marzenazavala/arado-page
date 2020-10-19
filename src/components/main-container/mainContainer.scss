@@ -1,17 +1,19 @@
 .main-container {
     width: 80vw;
-    height: 1500px;
+    min-height: 1500px;
+    margin: auto
     // background-color: rgb(180, 163, 143);
+    
+}
+
+.paper {
     background-image: url('../../assets/img/old_paper.png');
-    // box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-size: cover;
-    margin: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
     padding: 20px;
     font-family: 'Courier Prime', monospace;
-    // position: relative;
-    // top: 0px;
     FILTER: grayscale(30%)
-
 }
 
 .parallax {
