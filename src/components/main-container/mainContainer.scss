@@ -1,17 +1,19 @@
 .main-container {
-    width: 80vw;
-    height: 1500px;
+    width: 100vw;
+    min-height: 1500px;
     margin: auto
     // background-color: rgb(180, 163, 143);
     
 }
 
 .paper {
+    width: 80vw;
+    min-height: 1500px;
     background-image: url('../../assets/img/old_paper.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 30px;
     font-family: 'Courier Prime', monospace;
 }
 
