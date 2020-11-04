@@ -9,6 +9,9 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "animate.css": "^4.1.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "formik": "^2.2.1",
     "moment": "^2.29.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,7 +21,8 @@
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
     "sass": "^1.26.11",
-    "surge": "^0.21.6"
+    "surge": "^0.21.6",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",

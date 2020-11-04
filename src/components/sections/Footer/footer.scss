@@ -1,15 +1,46 @@
-.bck-gray {
-    height: 100px;
-    background-color: #333333;
-}
 
 footer {
     padding: 20px;
     font-family: 'UnifrakturCook', cursive;
     font-size: 54px;
     text-align: center;
+    max-height: 100px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
 }
 
 .footer_copyright {
     font-size: 18px;
+}
+
+.footer_contact {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B7B5B5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+.footer_hours {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B7B5B5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.facebook-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../../assets/icons/facebook-light.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    &:hover {
+        background-image: url('../../../assets/icons/facebook-dark.svg');
+        cursor: url('../../../assets/icons/tank.png'), auto;
+    }
 }
