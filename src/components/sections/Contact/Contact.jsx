@@ -9,6 +9,7 @@ const Contact = () => {
     <div className='main-wrapper2' id='kontakt'>
       <Fade delay={500}>
         <h1>Kontakt</h1>
+        <h3>Odwiedź nas lub napisz wiadomość - czekamy.</h3>
         <div className='contact-wrapper'>
           <ContactForm/>
           <Location />

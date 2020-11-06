@@ -1,0 +1,90 @@
+.contactsection-wrapper {
+    width: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+label {
+    font-size: 16px;
+    margin: 10px 20px;
+}
+
+input, textarea{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input::placeholder{
+    color: rgb(146, 143, 143);
+  }
+
+.input-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border: 1px dashed rgb(143, 0, 0);
+    background-color: #000;
+    outline: none;
+    &:hover {
+        transition: 1s;
+        border: 1px dashed #fff;
+    }
+}
+
+
+.message {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed rgb(143, 0, 0);
+    background-color: #000;
+    &:hover {
+        transition: 0.8s;
+        border: 1px dashed #fff;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-submit {
+    height: 40px;
+    border: none;;
+    background-color: rgb(143, 0, 0);
+    width: 300px;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    cursor: url('../../assets/icons/aim.png'), auto;
+    &:hover {
+        background-color: rgb(202, 4, 4);
+	    letter-spacing: 0.3rem;
+        transition: 0.8s;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
