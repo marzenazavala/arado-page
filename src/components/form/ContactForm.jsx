@@ -9,6 +9,8 @@ const ContactForm = () => (
         firstName: '',
         lastName: '',
         email: '',
+        phone: '',
+        message: ''
       }}
       onSubmit={async (values) => {
         await new Promise((r) => setTimeout(r, 500));
@@ -49,7 +51,7 @@ const ContactForm = () => (
           <label htmlFor="email">Wiadomość</label>
           <Field
             id="message"
-            name="email"
+            name="message"
             as="textarea"
             rows='7'
             placeholder="Wiadomość"
