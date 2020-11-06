@@ -6,7 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 import './menu.scss';
 
 
-const SideDrawer = (props) => {
+const SideBar = (props) => {
 
     const scrollToElement = (element) => {
         scroller.scrollTo(element,{
@@ -54,4 +54,4 @@ const SideDrawer = (props) => {
     );
 };
 
-export default SideDrawer;
+export default SideBar;

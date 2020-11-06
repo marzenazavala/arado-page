@@ -10,6 +10,7 @@ const Contact = () => {
       <Fade delay={500}>
         <h1>Kontakt</h1>
         <div className='contact-wrapper'>
+          <ContactForm/>
           <Location />
         </div>       
       </Fade>

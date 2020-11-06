@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
-import SideDrawer from './Sidebar';
+import SideBar from './Sidebar';
 import {Link, animateScroll} from 'react-scroll';
 import './menu.scss';
 
@@ -63,7 +63,7 @@ class Menu extends Component {
                 <div onClick={() => this.toggleDrawer(true)}>
                     <MenuIcon className='menu-items'/>
                 </div>
-                <SideDrawer
+                <SideBar
                     open={this.state.drawerOpen}
                     onClose={(value) => this.toggleDrawer(value)}
                 />

@@ -9,7 +9,7 @@ import Footer from './components/sections/Footer/Footer';
 import Gallery from './components/sections/Gallery/Gallery';
 import Menu from './components/sections/Menu/Menu';
 import Partners from './components/sections/Partners/Partners';
-import Prices from './components/sections/Prices/Prices';
+import Hours from './components/sections/Hours/Hours';
 
 class App extends Component {
   render () {
@@ -19,7 +19,7 @@ class App extends Component {
         <LandingPage />
         <MainContainer/>
         <Partners />
-        <Prices />
+        <Hours />
         <Cennik />
         <Gallery />
         <Contact />

@@ -4,7 +4,7 @@ footer {
     font-family: 'UnifrakturCook', cursive;
     font-size: 54px;
     text-align: center;
-    max-height: 100px;
+    height: auto;
     background-color: #333333;
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@ footer {
 }
 
 .footer_contact {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     color: #B7B5B5;
     font-family: 'Courier New', Courier, monospace;
@@ -25,7 +25,7 @@ footer {
 }
 
 .footer_hours {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     color: #B7B5B5;
     font-family: 'Courier New', Courier, monospace;
@@ -44,3 +44,12 @@ footer {
         cursor: url('../../../assets/icons/tank.png'), auto;
     }
 }
+
+.author {
+    padding-top: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #00d19d;
+    font-family: 'Courier New', Courier, monospace;
+}
+

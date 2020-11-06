@@ -2,24 +2,27 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import './footer.scss';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 const Footer = () => {
   return (
+    <div>
     <footer>
+      
       <div className="footer_contact">
+        <div>Projekt Arado - zaginione laboratorium Hitlera</div>
+        <div>ul. Lubawska 1a</div>
+        <div>58-400 Kamienna Góra</div>
         <div /><span>projekt@projektarado.pl</span>
-        <div className="phone-icon"/><span>+48 512 561 292</span>
-          <div>Projekt Arado - zaginione laboratorium Hitlera</div>
-          <div>ul. Lubawska 1a</div>
-          <div>58-400 Kamienna Góra</div>
+        <div className="phone-icon"/><span>+48 512 561 292</span>  
       </div>
       <div>
         <Fade delay={500}>
         <div>
-          Arado
+        Projekt Arado
         </div>
         <div className='footer_copyright'>
-          Projekt Arado. Copyright 2020
+        Zaginione laboratorium Hitlera
         </div>
         </Fade>
       </div>
@@ -32,6 +35,7 @@ const Footer = () => {
         <div>Od 15 listopada do 15 kwietnia 10:00-17:00</div>
       </div>
     </footer>
+    </div>
     );
 };
 
