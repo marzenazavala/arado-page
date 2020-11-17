@@ -24,7 +24,7 @@ input, textarea{
 }
 
 textarea:focus, input:focus {
-    color: #ff0000;
+    color: rgb(218, 195, 157);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -43,7 +43,7 @@ input::placeholder{
     height: 30px;
     border: none;
     padding: 10px;
-    border: 1px dashed rgb(143, 0, 0);
+    border: 1px dashed rgb(218, 195, 157);
     background-color: #000;
     outline: none;
     &:hover {
@@ -56,7 +56,7 @@ input::placeholder{
 .message {
     width: 100%;
     padding: 10px;
-    border: 1px dashed rgb(143, 0, 0);
+    border: 1px dashed rgb(218, 195, 157);
     background-color: #000;
     &:hover {
         transition: 0.8s;
@@ -70,7 +70,7 @@ input::placeholder{
 .btn-submit {
     height: 40px;
     border: none;;
-    background-color: rgb(143, 0, 0);
+    background-color: rgb(134, 117, 87);
     width: 300px;
     margin: auto;
     font-size: 18px;
@@ -78,7 +78,6 @@ input::placeholder{
     color: #fff;
     cursor: url('../../assets/icons/aim.png'), auto;
     &:hover {
-        background-color: rgb(202, 4, 4);
 	    letter-spacing: 0.3rem;
         transition: 0.8s;
     }
