@@ -1,22 +1,66 @@
 .main-box {
-    height: 110vh;
+    height: 70vh;
     text-align: center;
-    // background-image: url('../../../assets/img/wall-background.png');
+    background-color: #000;
     background-image: url('https://cdn.pixabay.com/photo/2015/04/25/13/12/old-739112_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: sepia(30%)
+    filter: sepia(10%)
     
 }
 
 
 .g-wrapper {
+    width: 95vw;
     margin: auto;
     padding: 10px 40px;
     font-family: 'UnifrakturCook', cursive;
     font-size: 24px;
 }
+
+.g-box {
+    width: 370px;
+    height: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+    &:hover {
+        cursor: url('../../../assets/icons/aim.png'), auto;
+        letter-spacing: .3rem;
+        transition: all 1.5s;
+    }
+}
+
+.g-title {
+   background-color: rgb(218, 195, 157);
+   padding: 0 5px;
+}
+
+.opacity {
+    opacity: .5
+}
+
+.galeria1 {
+    background-image: url('https://i.ibb.co/sFFJtwk/RR27364.png');
+}
+
+.galeria2 {
+    background-image: url('https://i.ibb.co/L0w3nTD/photo-frame-4.png');
+}
+
+.galeria3 {
+    background-image: url('https://i.ibb.co/sFFJtwk/RR27364.png');
+}
+
+.galeria4 {
+    background-image: url('https://i.ibb.co/L0w3nTD/photo-frame-4.png');
+}
+
+
 
 
 

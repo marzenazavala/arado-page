@@ -1,50 +1,22 @@
 import React from  'react';
-import ResponsiveGallery from 'react-responsive-gallery';
+import Gallery from 'react-grid-gallery';
 import Fade from 'react-reveal';
+import { IMAGES } from './GalleryImages';
 import './gallery.scss';
-
-const images=[
-    {
-      src: 'https://i.ibb.co/sFFJtwk/RR27364.png'
-    },
-    {
-        src: 'https://i.ibb.co/L0w3nTD/photo-frame-4.png'
-      },
-    {
-        src: 'https://i.ibb.co/c39rGCr/photo-frame-5.png'
-      },
-      {
-        src: 'https://i.ibb.co/L0w3nTD/photo-frame-4.png'
-      },
-      {
-        src: 'https://i.ibb.co/sFFJtwk/RR27364.png'
-      },
-      {
-        src: 'https://i.ibb.co/c39rGCr/photo-frame-5.png'
-      },
-      {
-        src: 'https://i.ibb.co/sFFJtwk/RR27364.png'
-      },
-      {
-        src: 'https://i.ibb.co/L0w3nTD/photo-frame-4.png'
-      },
-      {
-        src: 'https://i.ibb.co/c39rGCr/photo-frame-5.png'
-      },
-      {
-        src: 'https://i.ibb.co/L0w3nTD/photo-frame-4.png'
-      }, 
-      
-  ];
+import GalleryPreview from './GalleryPreview';
 
 
-const Gallery = () => {
+
+
+const GalleryGrid = () => {
     return (
         <div className='main-box' id='galeria'>
             <div className='g-wrapper'>
                 <Fade delay={2000}>
                     <h1>Galeria</h1>
-                    <ResponsiveGallery images={images}/>
+                    <GalleryPreview />
+                    {/* <Gallery images={IMAGES} enableLightbox={true}
+                    enableImageSelection={false} /> */}
                 </Fade>
             </div>
             
@@ -52,4 +24,4 @@ const Gallery = () => {
     );
 };
 
-export default Gallery
+export default GalleryGrid

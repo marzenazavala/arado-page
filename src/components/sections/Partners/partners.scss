@@ -1,8 +1,46 @@
 .main-wrapper {
-    height: 200px;
+    height: 40vh;
     color: #fff;
     font-size: 24px;
     text-align: center;
     padding: 20px;
     font-family: 'UnifrakturCook', cursive;
 }
+
+.carousel-wrapper {
+    width: 90vw;
+    margin: auto
+}
+
+.p-box {
+    width: 200px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+        opacity: 1;
+        cursor: url('../../../assets/icons/aim-g.png'), auto;
+    }
+    
+}
+
+.partner1 {
+    background-image: url('../../../assets/img/budowle-swiata-p.png');
+    opacity: .4;
+}
+
+.partner2 {
+    background-image: url('../../../assets/img/p-zielona.png');
+    opacity: .4
+}
+
+.partner3 {
+    background-image: url('../../../assets/img/logo_osada_p.png');
+    opacity: .4
+}
+
+.partner4 {
+    background-image: url('../../../assets/img/p_willa.png');
+    opacity: .4
+}
+
