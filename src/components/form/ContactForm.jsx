@@ -1,10 +1,30 @@
 import React, { useState } from 'react';
 import { Axios, db } from '../../firebase/firebaseConfig';
+import Modal from '@material-ui/core/Modal';
+import { makeStyles } from '@material-ui/core/styles';
 import './contactForm.scss';
 
+const useStyles = makeStyles((theme) => ({
+  modal: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  paper: {
+    backgroundColor: theme.palette.background.paper,
+    border: '2px solid #dac39d',
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2, 4, 3),
+    fontFamily: 'Courier New',
+    fontSize: '16px'
+  },
+}));
+
 const ContactForm = () => {
+  const classes = useStyles();
   const [formData, setFormData] = useState({})
-  const [messageSent, setMessageSent] = useState(false)
+  const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const updateInput = e => {
     setFormData({
@@ -23,7 +43,7 @@ const ContactForm = () => {
       email: '',
       message: '',
     });
-    setMessageSent(!messageSent);
+    setOpen(!open);
   };
 
   const sendEmail = () => {
@@ -44,6 +64,10 @@ const ContactForm = () => {
     .catch(error => {
       console.log(error);
     })
+  };
+
+  const handleClose = () => {
+    setOpen(false);
   }
 
   return (
@@ -115,6 +139,16 @@ const ContactForm = () => {
           <button type="submit" className='btn-submit'>WYŚLIJ WIADOMOŚĆ</button>
         </div>
     </form>
+    {open && 
+      <Modal
+        className={classes.modal} 
+        open={open}
+        onClose={handleClose}>
+          <div className={classes.paper}>
+            <p>Dziękujemy za wysłanie wiadomości. Odpowiemy jak najszybciej.</p>
+          </div>
+      </Modal>
+    }
   </div>
   )};
 
